@@ -1,0 +1,95 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Garante que o body tenha pelo menos a altura da tela */
+  background-image: url('../assets/fundoTCCopacidade.JPG');
+  background-repeat: no-repeat;
+  background-size: cover; /* Cobrir toda a área disponível */
+  background-position: center center; /* Centraliza a imagem */
+  background-attachment: fixed; /* Opcional: fixa o fundo ao rolar (evita cortes) */
+}
+.container-registro-usuario {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+}
+
+.input-label {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.text-input {
+  
+  background-color: #1a1a1a;
+  border: 2px solid #333;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  cursor: text;
+  transition:
+    border-color 0.3s,
+    background-color 0.3s;
+}
+
+.text-input:focus {
+  outline: none;
+  border-color: #ff7f26;
+  background-color: #222;
+}
+
+.text-input:read-only {
+  background-color: #111;
+  color: #aaa;
+}
+
+// .text-input {
+//   width: 100%;
+//   height: 50px;
+//   font-size: 16px;
+//   padding: 10px;
+//   border: 2px solid transparent;
+//   border-radius: 24px;
+//   cursor: pointer;
+//   transition: border-color 0.3s ease-in-out;
+// }
+
+.passwd {
+  display: flex;
+  justify-content: space-between;
+}
+
+.next {
+  // position: absolute;
+  width: 100%;
+  height: 72px;
+  left: 1055px;
+  top: 600px;
+  background-color: #ff7f26;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  border-radius: 24px;
+}
+
+.next:hover {
+  background-color: #b14a01;
+}
+
+.next:active {
+  background-color: #ff7f26;
+}
+
